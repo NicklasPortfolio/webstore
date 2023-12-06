@@ -20,6 +20,7 @@ form {
     background: white;
     text-align: left;
     padding: 40px;
+    border: 2px solid #555;
     border-radius: 10px;
 }
 

@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="top-links">
-        <router-link to="/login">Login</router-link>
+        <router-link @hover="displayLogin" to="/login">Login</router-link>
         <small>or</small>
         <router-link to="/createacc">Create New Account</router-link>
       </div>
@@ -45,12 +45,19 @@ export default {
       },
     }
   },
+
+  methods: {
+    displayLogin() {
+      
+    }
+  }
 }
 </script>
 
 <style>
 body {
   margin: 0;
+  background-color: #eee;
 }
 
 #app {
